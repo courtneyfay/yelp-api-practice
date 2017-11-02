@@ -1,0 +1,6 @@
+<section>
+    <h2>Search For A Yelp Restaurant</h2>
+    Search String: {{restaurantName}}
+    <input [(ngModel)]="restaurantName" type="text" placeholder="Restaurant Name"/>
+    <input (click)="findRestaurant(restaurantName)" type="submit" value="Search" />
+</section>
